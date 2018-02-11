@@ -1,0 +1,76 @@
+GIT
+- git init
+- git clone <url.git>
+-- downloads latest code to local directory
+- git status
+-- lists the changes
+- git add -A
+-- adds all changes to the staging area
+- git commit -m "message"
+- git remote -v
+-- displays current origin
+- git remote set-url origin <url.git>
+-- updates origin to <url.git>
+- git push origin master
+- git pull origin master
+- .gitignore
+-- tells git which files to ignore
+-- eg. *.swp, *~, .tmp/, node_modules/
+-- ignore OS or Editor folders
+
+
+NPM
+- npm install <package> 
+-- downloads the latest package to node_modules folder
+- npm install <package> --save
+-- downloads latest package to node_modules folder and updates dependencies
+ section of package.json file
+- npm install <package> --save-dev
+-- downloads latest package to node_modules folder and updates devDependencies
+ section of package.json file
+- npm install
+-- downloads all dependencies listed in package.json file
+
+
+Gulp
+- npm install gulp-cli --global
+-- so that gulp command will be recognized
+- npm install gulp --save-dev
+-- downloads the gulp package to local node_modules
+- gulp
+-- gulp runs default task when task is not specified
+- gulp <specific_task>
+-- gulp runs specified task
+- npm install gulp-watch --save-dev
+-- downloads gulp-watch plugin
+- gulp watch
+-- runs gulp watch task until terminated (Ctrl-c)
+-- watches files then triggers tasks 
+-- watch('./app/index.html', function () {gulp.start(task_name)});
+- gulp.src(), gulp.dest(), gulp.pipe()
+- gulp.src().pipe(gulp.dest())
+- npm install gulp-postcss --save-dev
+- npm install autoprefixer --save-dev
+-- adds css prefix for browser compatibility
+- npm install postcss-simple-vars --save-dev
+-- css variables is not supported by all browsers
+-- this task convert variables in the css files
+-- PostCSS is the combo of SASS, less, stylus
+- npm install postcss-nested --save-dev
+
+
+File Structure
+- travel-site
++-- app
+| +-- assets
+| | +-- images
+| | +-- styles
+| | | `-- styles.css
+| +--  temp
+| `-- index
++-- node_modules
++-- gitignore
++-- gulpfile.js
+`-- package.json
+
+
