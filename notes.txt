@@ -78,6 +78,10 @@ File Structure
 | | | `-- styles.css
 | +--  temp
 | `-- index
++-- gulp
+| +-- tasks
+| | +-- styles.js
+| | `-- watch.js
 +-- node_modules
 +-- gitignore
 +-- gulpfile.js
