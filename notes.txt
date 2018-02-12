@@ -60,6 +60,7 @@ Gulp
 - npm install browser-sync --save-dev
 -- when used with gulp watch, can reload browser whenever html page gets updated
 -- can inject css to the page without changing its state
+- npm install postcss-mixins --save-dev
 
 
 
