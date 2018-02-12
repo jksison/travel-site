@@ -94,3 +94,6 @@ Responsive website
 -- <picture>, <img>, <source srcset="medium.jpg" media="(min-width: 760px)"> tags
 - image resolution and file size situation (faster load times)
 -- <img srcset="">
+- in google chrome, you can simulate pixel densities
+-- Developers Tool->Toggle device toolbar->Responsive->change DPR
+
