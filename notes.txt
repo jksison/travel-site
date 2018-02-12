@@ -57,6 +57,10 @@ Gulp
 -- this task convert variables in the css files
 -- PostCSS is the combo of SASS, less, stylus
 - npm install postcss-nested --save-dev
+- npm install browser-sync --save-dev
+-- when used with gulp watch, can reload browser whenever html page gets updated
+-- can inject css to the page without changing its state
+
 
 
 File Structure
@@ -65,6 +69,12 @@ File Structure
 | +-- assets
 | | +-- images
 | | +-- styles
+| | | +-- base
+| | | | +-- _global.css
+| | | | `-- _variables.css
+| | | +-- modules
+| | | | +-- _large-hero.css
+| | | | `-- _btn.css
 | | | `-- styles.css
 | +--  temp
 | `-- index
