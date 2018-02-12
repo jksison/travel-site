@@ -60,8 +60,6 @@ Gulp
 - npm install browser-sync --save-dev
 -- when used with gulp watch, can reload browser whenever html page gets updated
 -- can inject css to the page without changing its state
-- npm install postcss-mixins --save-dev
-
 
 
 File Structure
@@ -89,3 +87,10 @@ File Structure
 `-- package.json
 
 
+Responsive website
+- npm install postcss-mixins --save-dev
+- media queries
+- art direction and cropping situation (picture element)
+-- <picture>, <img>, <source srcset="medium.jpg" media="(min-width: 760px)"> tags
+- image resolution and file size situation (faster load times)
+-- <img srcset="">
