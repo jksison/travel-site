@@ -104,7 +104,14 @@ Design Patterns
 - separate div for each pattern
 - style the page section by section
 - check the page in both desktop and mobile screen before moving to the next section
+- box-sizing: border-box
 - clearfix trick in css
 - margin-right: -65px; and overflow: hidden; trick in css
+
+
+Responsive image
+- when the image is not going to take the full width, need to tell browser the size (max) so that it will not take the high dpi images
+-- <img sizes="976px" srcset="...">
+-- <img sizes="(min-width: 970px) 976px, 100vw" (100% viewport)
 
 
