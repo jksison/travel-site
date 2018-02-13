@@ -102,5 +102,9 @@ Design Patterns
 - identify design patterns on the page to create reusable css blocks
 - write each patterns in their own css files
 - separate div for each pattern
+- style the page section by section
+- check the page in both desktop and mobile screen before moving to the next section
+- clearfix trick in css
+- margin-right: -65px; and overflow: hidden; trick in css
 
 
